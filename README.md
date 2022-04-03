@@ -61,11 +61,16 @@ overall_passing_percentage = overall_passing_math_reading_count / new_total_stud
 
 ## 3) Results
 ### District Summary 
+The following images show the output of `district_summary_df` dataframe of the original data and the updated data
+#### Original
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Original_outputs/district_summary_original.png width="90%" height="90%">
+#### Updated 
+(total student count used in calculation = 38709)
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/district_summary_update.png width="90%" height="90%">
 
-<img src= https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Original_outputs/district_summary_original.png>
-<img src= https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/district_summary_update.png>
+Average reading score original = 81.87784018381414
+Average reading score update = 81.85579580976001
 
-+ How is the district summary affected?
 
 <img src= to-be-put width="50%" height="50%">
 <img src= to-be-put width="50%" height="50%">
