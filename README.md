@@ -70,9 +70,11 @@ Since the score values of THS 9th graders are NaNs, or no value, the total numbe
 
 |Statistical|Old|New|Percentage Difference|
 |-----|:-----:|-----|-----|
-|||||
-|||||
-
+|Average Math Score|79.0|78.9|0.1|
+|Average Reading Score|81.9|81.9|-|
+|% Passing Math|75|74.8|0.2|
+|% Passing Reading|86|85.7|0.3|
+|% Overall Passing|65|64.9|0.1|
 
 > Note that the number of total student used in calculation is `new_total_student_count` = 38709, which is different from the displayed number of Total Student in the district summary.
 
