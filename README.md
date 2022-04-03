@@ -61,12 +61,21 @@ overall_passing_percentage = overall_passing_math_reading_count / new_total_stud
 
 ## 3) Results
 ### District Summary 
-The following images show the output of `district_summary_df` dataframe of the original data and the updated data
-#### Original
+The following images show the output of `district_summary_df` dataframe of the original data and the updated data, respectively. The updated data is highlighted in blue.
+
 <img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Original_outputs/district_summary_original.png width="90%" height="90%">
-#### Updated 
-(total student count used in calculation = 38709)
 <img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/district_summary_update.png width="90%" height="90%">
+
+Since the score values of THS 9th graders are NaNs, or no value, the total number of the scores used to calculate is reduced from 39170 to 38709, the updated district summary show slight decreases in all of the statistical analysis, while the output of Total School, Total Student, and Total Budget remain the same as the information in the dataframe remains intact.
+
+|Statistical|Old|New|Percentage Difference|
+|-----|:-----:|-----|-----|
+|||||
+|||||
+
+
+> Note that the number of total student used in calculation is `new_total_student_count` = 38709, which is different from the displayed number of Total Student in the district summary.
+
 
 Average reading score original = 81.87784018381414
 Average reading score update = 81.85579580976001
