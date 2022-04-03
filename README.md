@@ -1,9 +1,9 @@
 # Analysis of School District Data
-## Project Overview
+## 1) Project Overview
 ### Purpose of the analysis
 ### Resorces
-## Updating School District Analysis
-## Results
+## 2) Updating School District Analysis
+## 3) Results
 ### Questions
 + How is the district summary affected?
 + How is the school summary affected?
@@ -14,4 +14,4 @@
   + Scores by school size
   + Scores by school type
 
-## Summary
+## 4) Summary
