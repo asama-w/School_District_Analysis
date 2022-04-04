@@ -89,8 +89,8 @@ Thomas High School data has a total of 1635 student in 9th-12th grade combined.
 |10th|421||
 |11th|415||
 |12th|338||
-|**Total (9th-12th graders) |1635**|`per_school_counts`|
-|**New Total (only 10th-12th graders) |1174**|`THS_tenth_to_twelfth_graders_count`|
+|**Total (9th-12th graders)** |**1635**|`per_school_counts`|
+|**New Total (only 10th-12th graders)** |**1174**|`THS_tenth_to_twelfth_graders_count`|
 
 When excluding all the scores of 9th graders, meaning the statistics of the scores that are shown in the school summary dataframe are calculated from the data of 10th to 12th graders, where the total number of 10th-12th graders are 1174. 
 
@@ -118,6 +118,12 @@ As a result, the statistical analysis of Thomas High School in the lastest updat
 <img src= https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_without_9thgraders_count.png width="80%" height="80%">
 
 The school summary output images of the original can be found here [Per School Summary (Original)](https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_original.png) and the update with per_school_count can be found here [Per School Summary (THS total student count)](https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_with_total_student.png) 
+
+||Average Math Score|Avaerage Reading Score|% Passing Math|% Passing Reading|% Overall Passing|
+|---|:---:|:---:|:---:|:---:|:---:|
+|Original|83.42|83.85|93.27|97.31|90.94|
+|Update 1 (use total student count)|83.35|83.9|66.9|69.66|65.08|
+|Update 2 (use 10th-12th student count)|83.35|83.9|93.19|97.02|90.63|
 
 
 ### Thomas High School's performance
