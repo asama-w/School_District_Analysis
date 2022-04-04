@@ -82,6 +82,13 @@ Since the score values of THS 9th graders are NaNs, or no value, the total numbe
 This analysis is carried out per each school data, to compare the values between schools.
 Similar to the district summary, the statistical calculations that involves the total number of students are affected when the Thomas High School's 9th graders are null, despite a very slightly changes in the percentage. The Total School Budget and Per Student Budget remains the same, as the altered data does not concern these two columns in this analysis.
 
+||Average Math Score|Avaerage Reading Score|% Passing Math|% Passing Reading|% Overall Passing|
+|---|:---:|:---:|:---:|:---:|:---:|
+|Original|83.42|83.85|93.27|97.31|90.94|
+|Update 1 (use total student count)|83.35|83.9|66.9|69.66|65.08|
+|Update 2 (use 10th-12th student count)|83.35|83.9|93.19|97.02|90.63|
+
+
 Thomas High School data has a total of 1635 student in 9th-12th grade combined.
 |Grade|Number of Student|variable in code preview|
 |-----|:-----:|----|
@@ -118,12 +125,6 @@ As a result, the statistical analysis of Thomas High School in the lastest updat
 <img src= https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_without_9thgraders_count.png width="80%" height="80%">
 
 The school summary output images of the original can be found here [Per School Summary (Original)](https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_original.png) and the update with per_school_count can be found here [Per School Summary (THS total student count)](https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_with_total_student.png) 
-
-||Average Math Score|Avaerage Reading Score|% Passing Math|% Passing Reading|% Overall Passing|
-|---|:---:|:---:|:---:|:---:|:---:|
-|Original|83.42|83.85|93.27|97.31|90.94|
-|Update 1 (use total student count)|83.35|83.9|66.9|69.66|65.08|
-|Update 2 (use 10th-12th student count)|83.35|83.9|93.19|97.02|90.63|
 
 
 ### Thomas High School's performance
