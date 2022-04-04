@@ -68,7 +68,7 @@ The following images show the output of `district_summary_df` dataframe of the o
 
 Since the score values of THS 9th graders are NaNs, or no value, the total number of the scores used to calculate is reduced from 39170 to 38709, the updated district summary show slight decreases in all of the statistical analysis (only 0.1-0.3% lower than the original statistics), while the output of Total School, Total Student, and Total Budget remain the same as the information in the dataframe remains intact.
 
-|Statistical|Old|New|Percentage Difference|
+|Statistical|Old Analysis|New Analysis|Percentage Difference|
 |-----|:-----:|-----|:-----:|
 |Average Math Score|79.0|78.9|-0.1%|
 |Average Reading Score|81.9|81.9|- <br />The difference is very slitghly (0.02)|
@@ -155,3 +155,8 @@ There are 2 school types, Charter and District. Thomas High School is in Charter
 <img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/type_summary_updated.png width="80%" height="80%">
 
 ## 4) Summary
+Summary of the changes in the updated school analysis after replacing math and reading scores for ninth graders at Thomas High school:
++ In the district summary, where the statistics are calculated by number of students count in the district (only count the students who have valid math and reading scores), the average scores and the overall performance percentage slighly decline by less than 0.3%
++ In school summary (per school), where the the statistics are based on number of student in each school (with valid scores), the averages and performance percentages are also decrease by up to 0.3%
++ In school summary (per school), despite the slight decrease in other calculated statistics, only the average reading score shows a slight increase by 0.1% (from 83.8% to 83.9%) when the 9th graders are omitted. 
++ In the updated analysis, when calculating the passing percentage per school, the number of students whose scores are omitted should not be included in the calculations, otherwise the results will be much altered. For example, to calculate the overall percentage, the sum of the scores of 1174 students cannot be divided by the total number of 1635 students in school as there are 461 scores absent.
