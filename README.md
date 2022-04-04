@@ -87,25 +87,38 @@ Average reading score update = 81.85579580976001
 
 + How is the school summary affected?
 
-<img src= to-be-put width="50%" height="50%">
+<img src= https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_with_total_student.png width="80%" height="80%"> <img src= https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/per_school_summary_without_9thgraders_count.png width="80%" height="80%">
+
+
 ### Thomas High School's performance
 + How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 
-<img src= to-be-put width="50%" height="50%">
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Original_outputs/five_schools_top_original.png width="50%" height="50%">
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/five_schools_top_updated.png width="50%" height="50%">
 
 ### Scores by Grade, School Spending, School Size, School Type
 + How does replacing the ninth-grade scores affect the following:
   + Math and reading scores by grade
+#### Math
 
-<img src= to-be-put width="50%" height="50%">
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Original_outputs/math_scores_by_grade_original.png width="30%" height="30%"> <img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/math_scores_by_grade_updated.png width="30%" height="30%">
+
+#### Reading
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Original_outputs/reading_scores_by_grade_original.png width="30%" height="30%"> <img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/reading_scores_by_grade_updated.png width="30%" height="30%">
+
+
+
+
   + Scores by school spending
 
-<img src= to-be-put width="50%" height="50%">
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/spending_summary_updated.png to-be-put width="90%" height="90%">
+
   + Scores by school size
 
-<img src= to-be-put width="50%" height="50%">
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/school_size_summary_updated.png width="90%" height="90%">
+
   + Scores by school type
 
-<img src= to-be-put width="50%" height="50%">
+<img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/Updated_outputs/type_summary_updated.png width="90%" height="90%">
 
 ## 4) Summary
