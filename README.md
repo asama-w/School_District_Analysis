@@ -34,7 +34,7 @@ After the reading and math scores of 9th graders at Thomas High School has been 
 
 <img src=https://github.com/asama-w/School_District_Analysis/blob/main/Additional%20Images/school_data_complete.png width="80%" height="80%">
 
-### Statistical Analysis
+### 2.3) Statistical Analysis
 There are 5 calculations performed in this analysis to determine the trends of school performances:
 + Average Math Score
 + Average Reading Score
@@ -80,12 +80,12 @@ Since the score values of THS 9th graders are NaNs, or no value, the total numbe
 
 ### School Summary
 This analysis is carried out per each school data, to compare the values between schools.
-Similar to the district summary, the statistical calculations that involves the total number of students are affected when the Thomas High School's 9th graders are null, despite a very slightly changes in the percentage. The Total School Budget and Per Student Budget remains the same, as the altered data does not concerns these two columns in this analysis.
+Similar to the district summary, the statistical calculations that involves the total number of students are affected when the Thomas High School's 9th graders are null, despite a very slightly changes in the percentage. The Total School Budget and Per Student Budget remains the same, as the altered data does not concern these two columns in this analysis.
 
 Thomas High School data has a total of 1635 student in 9th-12th grade combined.
 |Grade|Number of Student|variable in code preview|
 |-----|:-----:|----|
-|_9th|461_||
+|_9th_|_461_||
 |10th|421||
 |11th|415||
 |12th|338||
@@ -156,6 +156,7 @@ There are 2 school types, Charter and District. Thomas High School is in Charter
 
 ## 4) Summary
 Summary of the changes in the updated school analysis after replacing math and reading scores for ninth graders at Thomas High school:
++ In the district summary, total number of student count use to determine the passing percentage are reduced from 39170 students to 38709 students after omitting the 9th graders'scores.
 + In the district summary, where the statistics are calculated by number of students count in the district (only count the students who have valid math and reading scores), the average scores and the overall performance percentage slighly decline by less than 0.3%
 + In school summary (per school), where the the statistics are based on number of student in each school (with valid scores), the averages and performance percentages are also decrease by up to 0.3%
 + In school summary (per school), despite the slight decrease in other calculated statistics, only the average reading score shows a slight increase by 0.1% (from 83.8% to 83.9%) when the 9th graders are omitted. 
